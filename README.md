@@ -1,119 +1,77 @@
-# 📘 Tổng quan Workspace
+# 🎓 Thực hành IE213
 
-Workspace của bạn bao gồm ba dự án chính:
-
-1. **`movie-reviews`** – backend Node.js/MongoDB xử lý review phim.
-2. **`TDapp-mongodb`** – ứng dụng mẫu với client/server sử dụng MongoDB.
-3. **`IE213_phatTrienWeb/ThucHanh`** – nơi lưu trữ các bài Lab môn IE213 (phát triển ứng dụng web).
-
-File README dưới đây tập trung vào phần `ThucHanh` nhưng cũng giới thiệu chung các dự án phụ để dễ định hướng.
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Huỳnh Thanh Dân |
+| **MSSV** | 23520220 |
+| **Lớp** | IE213.Q21 |
+| **Môn học** | IE213 – Kỹ thuật phát triển hệ thống Web |
 
 ---
 
-# 🎓 Thực hành IE213 – Phát triển ứng dụng Web
+## 📂 Cấu trúc Repository
 
-**Sinh viên:** Huỳnh Thành Dân  
-**MSSV:** 23520220  
-**Lớp:** _[Điền mã lớp của bạn]_  
-**Môn học:** IE213.Q21 – Phát triển Ứng dụng Web
-
-## 📂 Cấu trúc thư mục
+> **Lưu ý:** Repository này được quản lý tập trung cho toàn bộ 6 bài thực hành theo đúng quy định của môn học. Các bài lab cũ sẽ không bị xóa đè.
 
 ```
-IE213_phatTrienWeb/
-├─ movie-reviews/           # dự án backend review phim
-│  ├─ backend/
-│  │  ├─ index.js
-│  │  ├─ server.js
-│  │  ├─ package.json
-│  │  ├─ api/
-│  │  │  ├─ movies.controller.js
-│  │  │  └─ movies.route.js
-│  │  └─ dao/
-│  │     └─ moviesDAO.js
-├─ ThucHanh/                 # bài lab môn học
-│  ├─ README.md              # file này
-│  ├─ Lab1/
-│  │  └─ Lab1.mongodb.js
-│  └─ …                      # các lab tiếp theo sẽ được thêm vào
+23520220-HuynhThanhDan-IE213.Q21/
+├── README.md               
+├── Lab01/                  
+├── Lab02/                  
+├── Lab03/
+├── Lab04/
+├── Lab05/
+└── Lab06/
 ```
 
 ---
 
-## 📝 Danh sách bài Lab
+## 📝 Danh sách bài Lab & Kết quả thực hiện
 
-| Lab | Nội dung chính                                              |
-|-----|-------------------------------------------------------------|
-| 01  | Làm quen với MongoDB – CRUD cơ bản và Aggregation           |
-| 02  | _Mô tả ngắn khi làm tới_                                    |
-| 03  | …                                                           |
-| 04  | …                                                           |
-| 05  | …                                                           |
-| 06  | …                                                           |
+| Bài Lab | Nội dung chính | Trạng thái | Nộp bài (Tag) |
+|---------|---------------|------------|---------------|
+| Lab 01 | Làm quen với MongoDB. | ✅ Hoàn thành | `lab01` |
+| Lab 02 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab02` |
+| Lab 03 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab03` |
+| Lab 04 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab04` |
+| Lab 05 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab05` |
+| Lab 06 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab06` |
 
-> ⚠️ Cập nhật bảng mỗi khi hoàn thành Lab mới.
+> Chi tiết về mục tiêu, cách chạy, kết quả đầu ra và hình ảnh minh họa được trình bày cụ thể trong file `README.md` của từng thư mục Lab.
 
 ---
 
-## ⚙️ Hướng dẫn sử dụng & cài đặt
+## ⚙️ Hướng dẫn cài đặt & Cách chạy
 
 ### Yêu cầu môi trường
 
-- **Node.js** (>=14.x)
-- **MongoDB** (local hoặc Atlas)
+- **Node.js:** Phiên bản >= 14.x
+- **MongoDB:** Đã cài đặt MongoDB Compass (chạy local) hoặc sử dụng MongoDB Atlas.
+- **Trình quản lý gói:** npm hoặc yarn.
 
-### Cách cài đặt
+### Cài đặt chung
 
-1. **Cài Node.js & MongoDB** theo hướng dẫn chính thức.
-2. Mở terminal, di chuyển vào thư mục dự án (ví dụ `movie-reviews/backend`) rồi chạy:
-   ```bash
-   npm install
-   ```
-3. Khởi động MongoDB nếu chạy local: `mongod --dbpath <đường dẫn dữ liệu>`
-4. Chạy server:
-   ```bash
-   node server.js
-   ```
-5. Thực hiện các file lab với:
-   ```bash
-   node ThucHanh/Lab1/Lab1.mongodb.js
-   ```
+1. Clone repository này về máy:
 
-### Cách chạy từng lab
+```bash
+git clone https://github.com/HuynhThanhDan-23520220/23520220-HuynhThanhDan-IE213.Q21.git
+```
 
-Mỗi bài Lab là một script JS tương tác với MongoDB. Mở file và đọc phần comment để biết các câu lệnh cần chạy.
+2. Di chuyển vào thư mục Lab cần chạy.
+
+3. Cài đặt các thư viện và công cụ cần thiết tùy thuộc vào từng Lab.
+
+4. Chạy theo hướng dẫn trong từng Lab.
 
 ---
 
-## ✅ Trình trạng hoàn thành
+## 🤖 Khai báo sử dụng AI
 
-- **Lab 1:** Hoàn thành 10/10 câu hỏi
-- **Lab 2:** _Đang thực hiện…_
-- …
-- **Tổng trạng thái:** Cập nhật theo tiến độ
+Trong quá trình thực hiện bài thực hành, em có sử dụng AI để hỗ trợ học tập và phát triển bài làm theo quy định. Cụ thể:
 
----
+- **Công cụ đã sử dụng:** AI Gemini
+- **Mục đích sử dụng:** Tối ưu hóa thời gian soạn thảo báo cáo, giải quyết các lỗi kỹ thuật về Git và tra cứu cách hoạt động của MongoDB.
+- **Phần được AI hỗ trợ:**
+  - AI Gemini đã tạo ra 80% cấu trúc và nội dung của file README này dựa trên file quy định của môn học.
 
-## 🤖 Sử dụng AI
-
-Nếu có dùng hỗ trợ từ công cụ AI, phải ghi rõ:
-
-- **Công cụ:** Gemini 3 Flash
-- **Mục đích:** 
-  - Giải thích lỗi cú pháp Git
-  - Gợi ý cấu trúc thư mục
-  - Giải thích toán tử `$group` trong MongoDB
-
-> 📌 Luôn minh bạch việc sử dụng AI trong báo cáo học tập.
-
----
-
-## 💡 Ghi chú chung
-
-- Các dự án phụ (`movie-reviews`, `TDapp-mongodb`) là tham khảo, có thể dùng để thực hành thêm.
-- Tổ chức mã nguồn, comment rõ ràng và tuân thủ nguyên tắc REST khi xây dựng API.
-- Cập nhật README này khi thêm bài Lab mới hoặc thay đổi cấu trúc.
-
----
-
-_Chúc bạn học tốt và hoàn thành đầy đủ các bài Lab!_ ✅
+> **Cam kết:** Em hoàn toàn hiểu rõ mã nguồn đã nộp, tự chịu trách nhiệm về kết quả, nắm rõ cấu trúc thư mục của repository và có khả năng giải thích chi tiết các đoạn code.
