@@ -28,14 +28,14 @@
 
 ## 📝 Danh sách bài Lab & Kết quả thực hiện
 
-| Bài Lab | Nội dung chính | Trạng thái | Nộp bài (Tag) |
-|---------|---------------|------------|---------------|
-| Lab 01 | Làm quen với MongoDB. | ✅ Hoàn thành | `lab01` |
-| Lab 02 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab02` |
-| Lab 03 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab03` |
-| Lab 04 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab04` |
-| Lab 05 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab05` |
-| Lab 06 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab06` |
+| Bài Lab | Nội dung chính | Trạng thái | Nộp bài (Tag) | Kết quả |
+|---------|---------------|------------|---------------|----------|
+| Lab 01 | Làm quen với MongoDB. | ✅ Hoàn thành | `lab01` | [📄 README Lab01](./Lab01/README.md) |
+| Lab 02 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab02` | [📄 README Lab02](./Lab02/README.md) |
+| Lab 03 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab03` | [📄 README Lab03](./Lab03/README.md) |
+| Lab 04 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab04` | [📄 README Lab04](./Lab04/README.md) |
+| Lab 05 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab05` | [📄 README Lab05](./Lab05/README.md) |
+| Lab 06 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab06` | [📄 README Lab06](./Lab06/README.md) |
 
 > Chi tiết về mục tiêu, cách chạy, kết quả đầu ra và hình ảnh minh họa được trình bày cụ thể trong file `README.md` của từng thư mục Lab.
 
