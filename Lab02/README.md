@@ -63,26 +63,26 @@ nodemon index.js
 ## 🖼️ Kết quả đầu ra
 
 ### Câu 1
-![Câu 1](./movie-reviews/backend/server.js)
+[server.js](./movie-reviews/backend/server.js)
 
 ### Câu 2
 ![Câu 2](./movie-reviews/backend/images/Cau2.png)
 
 ### Câu 3
-![Câu 3](./movie-reviews/backend/index.js)
+[index.js](./movie-reviews/backend/index.js)
 
 ### Câu 4
-![Câu 4](./movie-reviews/backend/api/movies.route.js)
+[movies.route.js](./movie-reviews/backend/api/movies.route.js)
 ![Câu 4 (2)](./movie-reviews/backend/images/Cau4.png)
 
 ### Câu 5
-![Câu 5](./movie-reviews/backend/dao/moviesDAO.js)
+[moviesDAO.js](./movie-reviews/backend/dao/moviesDAO.js)
 
 ### Câu 6
-![Câu 6](./movie-reviews/backend/api/movies.controller.js)
+[movies.controller.js](./movie-reviews/backend/api/movies.controller.js)
 
 ### Câu 7
-![Câu 7](./movie-reviews/backend/api/movies.route.js)
+[movies.route.js](./movie-reviews/backend/api/movies.route.js)
 ![Câu 7 (2)](./movie-reviews/backend/images/Cau7.png)
 
 ---
