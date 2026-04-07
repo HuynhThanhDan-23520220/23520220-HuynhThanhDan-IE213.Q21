@@ -32,7 +32,7 @@
 |---------|---------------|------------|---------------|----------|
 | Lab 01 | Làm quen với MongoDB. | ✅ Hoàn thành | `lab01` | [📄 README Lab01](./Lab01/README.md) |
 | Lab 02 | Thiết lập backend | ✅ Hoàn thành | `lab02` | [📄 README Lab02](./Lab02/README.md) |
-| Lab 03 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab03` | [📄 README Lab03](./Lab03/README.md) |
+| Lab 03 | Hoàn thiện backend | ✅ Hoàn thành | `lab03` | [📄 README Lab03](./Lab03/README.md) |
 | Lab 04 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab04` | [📄 README Lab04](./Lab04/README.md) |
 | Lab 05 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab05` | [📄 README Lab05](./Lab05/README.md) |
 | Lab 06 | (Chưa có thông tin) | ⏳ Chưa bắt đầu | `lab06` | [📄 README Lab06](./Lab06/README.md) |
